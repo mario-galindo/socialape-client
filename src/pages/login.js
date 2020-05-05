@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import withStyles from '@material-ui/core/styles/withStyles'
 import PropTypes from 'prop-types'
+import AppIcon from '../images/icon.png'
 
 //MUI Stuff
 import Grid from '@material-ui/core/Grid'
@@ -19,7 +20,7 @@ class login extends Component {
             <Grid container className={classes.form}>
                 <Grid item sm></Grid>
                 <Grid item sm>
-                    <p>yoo</p>
+                    <img src={AppIcon} alt=""monkey></img>
                 </Grid>
                 <Grid item sm></Grid>
             </Grid>
